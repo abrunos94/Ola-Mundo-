@@ -1,0 +1,1 @@
+# Exercicio para ler duas notas e fazer uma media entre elas
