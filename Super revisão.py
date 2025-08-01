@@ -1,10 +1,14 @@
-# Nesse projeto sera demosntrado e explicado as principais funçoes.
-# Sera demonstrado linhas de codigos (basta tirar a "#" de cometario para seguir)
-         # Modulo 1 Entrada e saida de variaveis;
+# Neste projeto será demonstrado e explicado as principais funções.
+# Serão mostradas linhas de código (basta remover o "#" dos comentários para executar)
 
-nome = input('Qual seu nome?')
-idade = input('Quantos anos voce tem?')
-#print(' Olá {}! Voce tem {} anos!' .format(nome, idade))
-#print(f'Olá {nome}! Voce tem {idade} anos!')
+# Módulo 1 - Entrada e saída de variáveis:
 
-   #pode ver que existe dois jeitos de usar or format como vimos acima!
+# EXEMPLO:
+nome = input('Qual seu nome? ')
+idade = input('Quantos anos você tem? ')
+
+# EXEMPLO:
+# print('Olá {}! Você tem {} anos!'.format(nome, idade))
+# print(f'Olá {nome}! Você tem {idade} anos!')
+
+# Podemos ver que existem duas formas de formatar textos, como mostrado acima.
