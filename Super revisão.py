@@ -122,3 +122,10 @@ print(' Prazer {}!' .format(nome))
 print('Seu nome tem {} letras!' .format(len(nome) - 4) )
 print(f'Seu nome tem {(len(nome) - 4)} letras!')
 print(f' Seu nome todo embletra maiscula fica assim {nome.upper()}!')
+print(' Seu nome todo embletra maiscula fica assim {}!' .format(nome.upper()))
+primeiro_nome = nome.split()[0]
+print(f'Seu primeiro nome é {primeiro_nome} e ele tem {len(primeiro_nome)} letras.')
+
+# ---------------------------------------------------------
+# Módulo Módulo 5 — Listas (Variáveis Compostas)
+# ---------------------------------------------------------
