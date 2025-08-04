@@ -65,3 +65,4 @@ print(' A soma é {}, \n Subtração {}, \n Multiplicação {}, \n Divisão real
 # ---------------------------------------------------------
 # Módulo 3 —  Módulo 4 — Manipulando Textos (Strings)
 # ---------------------------------------------------------
+.
