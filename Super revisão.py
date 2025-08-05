@@ -184,3 +184,46 @@ frase = 'Curso em Vídeo Python'
 
 #print("Lista de compras:", compras)
 
+# ---------------------------------------------------------
+# Módulo 6 — Condições (if, elif, else)
+# ---------------------------------------------------------
+
+# O if é usado para tomar decisões com base em comparações lógicas.
+# A estrutura básica é:
+# if condição:
+#     faça algo
+# else:
+#     faça outra coisa
+
+#idade = int(input("Quantos anos você tem? "))
+
+#if idade >= 18:
+#    print("Você é maior de idade.")
+#else:
+#    print("Você é menor de idade.")
+
+#| Operador | Significado      | Exemplo  |
+#| -------- | ---------------- | -------- |
+#| `==`     | igual a          | `a == b` |
+#| `!=`     | diferente de     | `a != b` |
+#| `>`      | maior que        | `a > b`  |
+#| `<`      | menor que        | `a < b`  |
+#| `>=`     | maior ou igual a | `a >= b` |
+#| `<=`     | menor ou igual a | `a <= b` |
+
+#| Operador | Significado   | Exemplo                              |
+#| -------- | ------------- | ------------------------------------ |
+#| `and`    | e             | `idade >= 18 and idade <= 30`        |
+#| `or`     | ou            | `nome == "Alex" or nome == "Ana"`    |
+#| `not`    | não (negação) | `not aprovado` (se for False → True) |
+
+n1 = float(input(' Digite a primeira nota: '))
+n2 = float(input(' Digite a segunda nota: '))
+media = (n1 + n2) / 2
+if media >= 7:
+ print('✅ Voce foi aprovado')
+elif 5 <= media < 7:
+ print(' 🔄 Voce esta de recuperação!')
+else:
+ print(' ❌ Voce esta de reprovado!')
+
