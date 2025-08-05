@@ -116,16 +116,71 @@ frase = 'Curso em Vídeo Python'
 #print(f"Juntando com hífen: {'-'.join(frase.split())}")
 
 # Exemplo
-nome = input(' Digite seu nome completo: ')
-print(f' Seu  nome completo é {nome}.')
-print(' Prazer {}!' .format(nome))
-print('Seu nome tem {} letras!' .format(len(nome) - 4) )
-print(f'Seu nome tem {(len(nome) - 4)} letras!')
-print(f' Seu nome todo embletra maiscula fica assim {nome.upper()}!')
-print(' Seu nome todo embletra maiscula fica assim {}!' .format(nome.upper()))
-primeiro_nome = nome.split()[0]
-print(f'Seu primeiro nome é {primeiro_nome} e ele tem {len(primeiro_nome)} letras.')
+#nome = input(' Digite seu nome completo: ')
+#print(f' Seu  nome completo é {nome}.')
+#print(' Prazer {}!' .format(nome))
+#print('Seu nome tem {} letras!' .format(len(nome) - 4) )
+#print(f'Seu nome tem {(len(nome) - 4)} letras!')
+#print(f' Seu nome todo em letra maiscula fica assim {nome.upper()}!')
+#print(' Seu nome todo em letra maiscula fica assim {}!' .format(nome.upper()))
+#primeiro_nome = nome.split()[0]
+#print(f'Seu primeiro nome é {primeiro_nome} e ele tem {len(primeiro_nome)} letras.')
 
 # ---------------------------------------------------------
 # Módulo Módulo 5 — Listas (Variáveis Compostas)
 # ---------------------------------------------------------
+
+#| Comando                    | Função                                    |
+#| -------------------------- | ----------------------------------------- |
+#| `lista[i]`                 | Acessa o valor no índice `i`              |
+#| `lista[i] = x`             | Altera o valor do índice `i` para `x`     |
+#| `lista.append(x)`          | Adiciona `x` ao final da lista            |
+#| `lista.insert(i, x)`       | Insere `x` na posição `i`                 |
+#| `del lista[i]`             | Remove o elemento da posição `i`          |
+#| `lista.pop(i)`             | Remove e retorna o valor da posição `i`   |
+#| `lista.remove(x)`          | Remove a primeira ocorrência do valor `x` |
+#| `len(lista)`               | Retorna o número de elementos da lista    |
+#| `lista.sort()`             | Ordena a lista em ordem crescente         |
+#| `lista.sort(reverse=True)` | Ordena em ordem decrescente               |
+#| `lista.copy()`             | Cria uma cópia independente da lista      |
+
+# Lista é uma estrutura que guarda vários valores dentro de uma mesma variável.
+# Podemos colocar números, textos, misturar dados e acessar por índice (posição).
+
+# Criando uma lista:
+#notas = [8.5, 7.0, 10.0]
+#nomes = ['Alex', 'Barbara', 'Bernardo']
+
+# Acessando elementos por índice (começa do 0):
+#print(nomes[0])  # Alex
+#print(notas[2])  # 10.0
+
+# Modificando um valor:
+#notas[1] = 7.5  # Agora a segunda nota virou 7.5
+
+# Adicionando novo valor:
+#notas.append(9.0)  # Adiciona 9.0 no final da lista
+
+# Removendo valor:
+#notas.pop()        # Remove o último valor (9.0)
+#notas.remove(7.5)  # Remove o valor 7.5
+
+# Saber o tamanho da lista:
+#print(len(nomes))  # Quantos nomes tem na lista
+
+# Usando for com lista:
+#for nome in nomes:
+#    print(f"Olá, {nome}!")
+
+# Enumerando os valores:
+#for indice, nome in enumerate(nomes):
+#    print(f"Na posição {indice} está o nome {nome}")
+
+# Criando uma lista vazia e preenchendo com input:
+#compras = []
+#for i in range(3):
+#    item = input("Digite um item de compra: ")
+#    compras.append(item)
+
+#print("Lista de compras:", compras)
+
